@@ -1,3 +1,20 @@
+## Meta datasets
+
+The meta data includes:
+
+1. Activity labels.
+2. Feature names.
+
+
+## Raw datasets
+
+The raw datasets consist of the follows:
+
+1. The text files "subject_train" and "subject_test" for subject IDs. 
+2. The text files "y_train" and "y_test" for activity code values. 
+3. The text files "X_train" and "X_test" for feature values.
+
+
 ## Preliminary dataset
 
 The preliminary dataset "dat_merged" is the union of the training and test datasets. For each record, it includes:
