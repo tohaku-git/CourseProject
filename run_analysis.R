@@ -80,4 +80,4 @@ dat_merged <- cbind(subject,y,X_sub)
 dat <- dat_merged  %>% 
   group_by(subject,activity) %>% 
   summarize(across(names(X_sub),mean))
-write.table(dat, file = "dat.csv", row.name=FALSE, sep = ",") 
+write.table(dat, file = "dat.txt", row.name=FALSE, sep = ",") 
